@@ -4,7 +4,7 @@ const saleRouter = require("./saleRouter");
 const router = express.Router();
 
 router.get("/", (req, res) => {
-    res.send("Funcionando");
+	res.send("It's working");
 });
 
 router.use("/seller", sellerRouter);
